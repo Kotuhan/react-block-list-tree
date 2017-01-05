@@ -1,7 +1,7 @@
 {
-  "name": "@trendmicro/react-component",
+  "name": "@trendmicro/react-example",
   "version": "0.1.0",
-  "description": "Trend Micro Components: React Component",
+  "description": "Trend Micro Components: React Example",
   "main": "lib/index.js",
   "files": [
     "dist",
@@ -13,7 +13,7 @@
     "build": "webpack --watch && npm run cleancss",
     "build-examples": "cd examples; webpack",
     "clean": "rm -f {lib,dist}/*",
-    "cleancss": "cleancss -o dist/react-component.min.css dist/react-component.css",
+    "cleancss": "cleancss -o dist/react-example.min.css dist/react-example.css",
     "demo": "http-server -p 8000 docs/",
     "lint": "eslint ./src",
     "lint:fix": "eslint --fix ./src",
@@ -23,7 +23,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/trendmicro-frontend/react-component.git"
+    "url": "git+https://github.com/trendmicro-frontend/react-example.git"
   },
   "author": "",
   "contributors": [
@@ -35,12 +35,12 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/trendmicro-frontend/react-component/issues"
+    "url": "https://github.com/trendmicro-frontend/react-example/issues"
   },
-  "homepage": "https://github.com/trendmicro-frontend/react-component",
+  "homepage": "https://github.com/trendmicro-frontend/react-example",
   "keywords": [
     "react",
-    "react-component"
+    "react-example"
   ],
   "peerDependencies": {
     "react": "^0.14.0 || ^15.0.0"

@@ -1,6 +1,6 @@
 {
-  "name": "@trendmicro/react-component",
-  "description": "Trend Micro Components: React Component",
+  "name": "@trendmicro/react-example",
+  "description": "Trend Micro Components: React Example",
   "authors": [
     {
       "name": "",
@@ -8,11 +8,11 @@
       "homepage": "https://github.com/trendmicro-frontend"
     }
   ],
-  "homepage": "https://github.com/trendmicro-frontend/react-component",
+  "homepage": "https://github.com/trendmicro-frontend/react-example",
   "snapshots": [],
   "keywords": [
     "react",
-    "react-component"
+    "react-example"
   ],
   "license": "MIT"
 }

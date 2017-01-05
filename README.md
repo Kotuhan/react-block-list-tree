@@ -1,36 +1,36 @@
-# react-component [![build status](https://travis-ci.org/trendmicro-frontend/react-component.svg?branch=master)](https://travis-ci.org/trendmicro-frontend/react-component) [![Coverage Status](https://coveralls.io/repos/github/trendmicro-frontend/react-component/badge.svg?branch=master)](https://coveralls.io/github/trendmicro-frontend/react-component?branch=master)
+# react-example [![build status](https://travis-ci.org/trendmicro-frontend/react-example.svg?branch=master)](https://travis-ci.org/trendmicro-frontend/react-example) [![Coverage Status](https://coveralls.io/repos/github/trendmicro-frontend/react-example/badge.svg?branch=master)](https://coveralls.io/github/trendmicro-frontend/react-example?branch=master)
 
-[![NPM](https://nodei.co/npm/@trendmicro/react-component.png?downloads=true&stars=true)](https://nodei.co/npm/@trendmicro/react-component/)
+[![NPM](https://nodei.co/npm/@trendmicro/react-example.png?downloads=true&stars=true)](https://nodei.co/npm/@trendmicro/react-example/)
 
-React Component
+React Example
 
-Demo: https://trendmicro-frontend.github.io/react-component
+Demo: https://trendmicro-frontend.github.io/react-example
 
 ## Installation
 
-1. Install the latest version of [react](https://github.com/facebook/react) and [react-component](https://github.com/trendmicro-frontend/react-component):
+1. Install the latest version of [react](https://github.com/facebook/react) and [react-example](https://github.com/trendmicro-frontend/react-example):
 
   ```
-  npm install --save react @trendmicro/react-component
+  npm install --save react @trendmicro/react-example
   ```
 
-2. At this point you can import `@trendmicro/react-component` and its styles in your application as follows:
+2. At this point you can import `@trendmicro/react-example` and its styles in your application as follows:
 
   ```js
-  import Component from '@trendmicro/react-component';
+  import Example from '@trendmicro/react-example';
 
   // Be sure to include styles at some point, probably during your bootstraping
-  import '@trendmicro/react-component/dist/react-component.css';
+  import '@trendmicro/react-example/dist/react-example.css';
   ```
 
 ## Usage
 
 ```js
-<Component
+<Example
     className="component"
 >
     GitHub
-</Component>
+</Example>
 ```
 
 

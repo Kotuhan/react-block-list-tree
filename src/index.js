@@ -1,3 +1,3 @@
-import Component from './Component';
+import Example from './Example';
 
-module.exports = Component;
+module.exports = Example;
